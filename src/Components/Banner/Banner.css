@@ -1,0 +1,61 @@
+.banner {
+  background-image: url("https://wallpaperaccess.com/full/2703652.png");
+  background-size: cover;
+  background-position: center;
+  height: 448px;
+  color: white;
+  position: relative; /* To position the fade element correctly */
+}
+
+.content {
+  padding: 140px 30px 0;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
+
+.banner_buttons {
+  margin-top: 1rem;
+}
+
+.button {
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  background-color: rgba(51, 51, 51, 0.7);
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  color: black;
+  background-color: #e6e6e6;
+}
+
+.description {
+  width: 100%;
+  max-width: 45rem;
+  line-height: 1.3em;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.fade {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.6),
+    #111
+  );
+}

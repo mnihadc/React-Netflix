@@ -1,0 +1,24 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    height: 70px; /* Adjusted height to fit content */
+    padding: 10px 20px; /* Reduced padding for better alignment */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    background-color: #111;
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .logo {
+    height: 50px; /* Adjusted for proportional scaling */
+    width: auto;
+  }
+  
+  .avatar {
+    height: 40px; /* Adjusted for proportional scaling */
+    width: 30px;
+    border-radius: 5px; /* Optional: Add a rounded effect */
+  }
+  
